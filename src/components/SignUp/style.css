@@ -1,0 +1,27 @@
+.register_inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 251px;
+}
+
+.signup_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 2.5rem;
+}
+
+.signup_footer p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #000000;
+}

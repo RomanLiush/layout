@@ -1,0 +1,120 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 10vh;
+}
+
+.login_block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.login_inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 187px;
+}
+
+.email, .password {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 49px;
+    width: 335px;
+    background-color: #ffffff;
+    padding-left: 15px;
+}
+
+.login_button {
+    margin-top: 10px;
+
+    box-sizing: border-box;
+    background: #6426E8;
+    border-radius: 15px;
+    height: 49px;
+    width: 335px;
+    border: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.login_with {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 2rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.login_companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 3.3rem;
+}
+
+.login_footer p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.signup_link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #6426E8;
+}
